@@ -51,11 +51,10 @@ or change the custom values in the widget editor panel to update it to the most 
 
 ## Individual Widget Documentation
 Each widget has some basic documentation in its respective folder as well.
-| Widget Name | Documentation Link |
-| ----------- | ------------------ |
-| Code Snippet | ?path=/code-snippet/code-snippet.md |
-| Properties Widget | ?path=/properties-widget/properties-widget.md |
-| Markdown Widget | ?path=/markdown-widget/markdown-widget.md |
+| Widget Name     | Documentation Link                                                                                                                 |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Code Snippet    | [code-snippet/code-snippet.md](https://github.com/FXZFun/AzureDevPortalWidgets/blob/main/code-snippet/code-snippet.md)             |
+| Markdown Widget | [markdown-widget/markdown-widget.md](https://github.com/FXZFun/AzureDevPortalWidgets/blob/main/markdown-widget/markdown-widget.md) |
 
 ## Errors
 
