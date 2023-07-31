@@ -1,0 +1,122 @@
+@import "reboot.scss";
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  padding: 20px;
+}
+
+.form-label {
+  padding: 5px 0;
+  display: block;
+  font-weight: 400;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-group .form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  padding: 7px;
+}
+
+.form-control {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+  color: #252525;
+  border: 1px solid #7f7f7fd9;
+  background-color: #ffffff;
+  display: block;
+  width: 100%;
+}
+
+.button {
+  &.button-primary {
+    border-top: 1px solid rgba(167, 51, 51, 0);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 13%);
+    font-style: normal;
+    border-left: 1px solid rgba(167, 51, 51, 0);
+    font-weight: 400;
+    border-right: 1px solid rgba(167, 51, 51, 0);
+    border-bottom: 1px solid rgba(167, 51, 51, 0);
+    padding: 9px 50px;
+    background-color: rgba(254, 213, 60, 1);
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}
+
+textarea {
+  resize: none;
+}
+
+.height-fill {
+  height: 100%;
+}
+
+.flex-columns-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.loading {
+  position: relative;
+
+  &:after {
+    content: "Loading...";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    text-align: center;
+  }
+}
+
+.markdown-body {
+    display: none;
+}
+
+.skeleton-tjrwtj9tx9o {
+    position: relative;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 12px 12px 12px 12px;
+    background-image: linear-gradient( #cccccc 20px, transparent 0 ),linear-gradient( #cccccc 20px, transparent 0 ),linear-gradient( #cccccc 20px, transparent 0 );
+    background-repeat: repeat-y;
+    background-size: 35% 150px,50% 150px,20% 150px;
+    background-position: left 30px top 130px,left 29px top 80px,left 30px top 30px;
+}
+
+.skeleton-tjrwtj9tx9o:before {
+    content: ' ';
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 500px;
+    -webkit-mask-image: linear-gradient( 100deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80% );
+    -webkit-mask-repeat: repeat-y;
+    -webkit-mask-size: 50px 500px;
+    -webkit-mask-position: -20% 0;
+    background-image: linear-gradient( rgba(255,255,255,1) 20px, transparent 0 ),linear-gradient( rgba(255,255,255,1) 20px, transparent 0 ),linear-gradient( rgba(255,255,255,1) 20px, transparent 0 );
+    background-repeat: repeat-y;
+    background-size: 35% 150px,50% 150px,20% 150px;
+    background-position: left 30px top 130px,left 29px top 80px,left 30px top 30px;
+    animation: shineForSkeleton-tjrwtj9tx9o 2s infinite;
+}
+
+@keyframes shineForSkeleton-tjrwtj9tx9o {
+    to {
+        -webkit-mask-position: 120% 0
+    }
+}
