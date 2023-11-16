@@ -4,6 +4,8 @@ These are custom components used to extend the functionality of the developer po
 such as a code syntax highlighting widget, or a markdown to html converter.
 These widgets can be developed with standard website technologies, with built-in templates for Typescript, React, and Vue.
 
+Additional information on using the Developer Portal editor can be found in the [DevPortalWiki.md](DevPortalWiki.md)
+
 
 ## Getting Started
 To get started creating widgets, you will need to have [NodeJS](https://nodejs.org/en/) installed.
